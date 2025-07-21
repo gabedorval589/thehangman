@@ -46,11 +46,3 @@ def get_guess(already_guessed):
       print("Please enter a LETTER.")
     else:
       return guess
-
-def play_again():
-  """This function returns True if the player wants to play again;
-  otherwise, it returns False."""
-  print('Do you want to play again? (yes or no)')
-  return input().lower().startswith('y')
-
-print(play_again())
